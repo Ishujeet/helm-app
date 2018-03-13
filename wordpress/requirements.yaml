@@ -1,7 +1,7 @@
 dependencies:
 - name: mysql
   version: 1.0.0
-  repository: file:///home/user/mysql
+  repository: https://github.com/Ishujeet/myapp/tree/master/mysql
   
   tags:
    - wordpress-mysql
