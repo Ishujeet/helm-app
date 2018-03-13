@@ -1,0 +1,6 @@
+name: mysql
+version: 1.0.0
+description: mysql database for wordpress
+maintainers: 
+ - name: Ishujeet
+   email: ishujeetpanjeta@gmail.com

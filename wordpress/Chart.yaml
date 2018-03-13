@@ -1,0 +1,6 @@
+name: wordpress
+version: 1.0.0
+description: A wordpress blog!
+maintainers: 
+ - name: Ishujeet
+   email: ishujeetpanjeta@gmail.com
