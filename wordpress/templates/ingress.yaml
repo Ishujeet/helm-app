@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: wordpress-ingress
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /login
 spec:
   backend:
     serviceName: wordpress
