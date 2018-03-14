@@ -21,8 +21,9 @@ spec:
       - image: wordpress:4.8-apache
         name: wordpress
         readinessProbe:
-          port: 80
-          path: /login   
+          httpGet:
+            path: /
+            port: 80  
         env:
         - name: WORDPRESS_DB_HOST
           value: wordpress-mysql
