@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - appVersion: 10.1.31
+    created: 2018-03-18T23:28:05.2595342+05:30
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system. MariaDB Server is intended for mission-critical, heavy-load
+      production systems as well as for embedding into mass-deployed software.
+    digest: 737756477f4addf332dac3b8f43ba7b64bb3bc9d52207f29fd0e95b2fbff04d3
+    engine: gotpl
+    home: https://mariadb.org
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - email: ishujeetpanjeta@gmail.com
+      name: Ishujeet
+    name: mariadb
+    urls:
+    - mariadb-2.1.11.tgz
+    version: 2.1.11
+generated: 2018-03-18T23:28:05.258552176+05:30
