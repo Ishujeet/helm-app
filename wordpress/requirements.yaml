@@ -1,7 +1,7 @@
 dependencies:
-- name: mysql
-  version: 1.0.0
-  repository: https://github.com/Ishujeet/myapp/tree/master/mysql
-  
+- name: mariadb
+  version: 2.1.1
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  condition: mariadb.enabled
   tags:
-   - wordpress-mysql
+    - wordpress-database
