@@ -5,7 +5,7 @@
 ## TL;DR;
 
 ```console
-$ helm install stable/wordpress
+$ helm install myapp/wordpress
 ```
 
 ## Prerequisites
@@ -18,7 +18,7 @@ $ helm install stable/wordpress
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm install --name my-release stable/wordpress
+$ helm install --name my-release myapp/wordpress
 ```
 
 The command deploys WordPress on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
