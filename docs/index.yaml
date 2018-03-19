@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   wordpress:
   - appVersion: 4.9.4
-    created: 2018-03-19T12:54:30.063796505+05:30
+    created: 2018-03-19T13:08:06.459224188+05:30
     description: Web publishing platform for building blogs and websites.
     digest: 3722b0909594bbfaf5f1a17eb65148aff59835e365272c18d2d63e5b9f76188b
     engine: gotpl
@@ -20,6 +20,6 @@ entries:
       name: ishujeetpanjeta@gmail.com
     name: wordpress
     urls:
-    - wordpress-0.8.14.tgz
+    - https://Ishujeet.github.com/myapp/wordpress-0.8.14.tgz
     version: 0.8.14
-generated: 2018-03-19T12:54:30.061667205+05:30
+generated: 2018-03-19T13:08:06.457078109+05:30
