@@ -146,8 +146,7 @@ common use cases:
 
 * helm generates/manages certificate secrets
 * user generates/manages certificates separately
-
-In the first two cases, one will need a certificate and a key.  We would
+The first two cases, one will need a certificate and a key.  We would
 expect them to look like this:
 
 * certificate files should look like (and there can be more than one
